@@ -1,0 +1,12 @@
+Ext.define('CustomApp', {
+    extend: 'Rally.app.App',
+    componentCls: 'app',
+    launch: function() {
+        //Write app code here
+
+        //API Docs: https://help.rallydev.com/apps/2.0/doc/
+
+        // changes
+        console.log("hello world 2!");
+    }
+});
